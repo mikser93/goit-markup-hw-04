@@ -164,6 +164,11 @@ ul {
     display: block;
 }
 
+.list-link:hover,
+.list-link:focus {
+    color: var(--accent-color);
+}
+
 .current {
     color: var(--accent-color);
 }
@@ -436,8 +441,8 @@ ul {
     margin-right: 10px;
 }
 
-.joinus-item:hover .joinus-link,
-.joinus-item:focus .joinus-link {
+.joinus-link:hover,
+.joinus-link:focus {
     background: var(--accent-color);
 }
 
